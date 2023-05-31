@@ -68,3 +68,39 @@ FUNCTION findTowel:
     ELSE {
         END
     }
+```
+## Washing:
+```
+FUNCTION turnOnWater:
+    a. Put left hand on left knob/handle
+    b. Turn knob 30 degrees so water starts flowing
+    c. REPEAT steps a and b but with right hand and right knob/handle
+
+FUNCTION waterTempurature:
+    a. Stick hand in water to see if it is to hot or to cold
+    b. FOR {
+        IF waterHot {
+            Put left hand on left knob and turn 5 degrees to the left
+        }
+        ELSE IF waterCold {
+            Put right hand on right knob and turn 5 degrees to the right
+        }
+        ELSE {
+            Water tempurature feels right END
+        }
+    }
+
+FUNCTION soapyHands:
+    a. Put hands into water for 1 second then take them out
+    b. Put right hand under soap dispenser spout
+    c. Put left hand on top of soap dispenser and push down
+    d. Cup hands and put them together
+    e. Rub in a circular motion for 5 seconds 
+
+FUNCTION wash:
+    a. Put hands into water
+    b. Rub hands in circular motion for 30 seconds in water
+    c. Put left palm towards ceiling
+    d. Gently rub right hand finger nails  back and forth on left palm
+    e. REPEAT step c and d, but switch hand placement
+```
