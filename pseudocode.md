@@ -124,3 +124,18 @@ FUNCTION dryHands:
             END
         }
 ```
+# PROGRAM START
+```
+findSink
+findSoap
+findTowel
+
+turnOnWater
+waterTempuerature
+soapyHands
+wash
+waterOff
+
+dryHands
+```
+# END PROGRAM
