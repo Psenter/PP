@@ -104,3 +104,23 @@ FUNCTION wash:
     d. Gently rub right hand finger nails  back and forth on left palm
     e. REPEAT step c and d, but switch hand placement
 ```
+## Turn off water:
+```
+FUNCTION waterOff:
+    a. Take hands out of water
+    b. Place left hand on left knob and turn to the left
+    c. REPEAT step b with right hand and knob and turn to the right
+```
+## Drying:
+```
+FUNCTION dryHands:
+    a. Pick up hand towel
+    b. Put towel inbetween hands
+    c. Rub hands in a circular motion for 5 seconds
+        IF hands still wet {
+            REPEAT step c
+        }
+        ELSE {
+            END
+        }
+```
