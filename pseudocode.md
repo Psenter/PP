@@ -76,7 +76,7 @@ FUNCTION turnOnWater:
     b. Turn knob 30 degrees so water starts flowing
     c. REPEAT steps a and b but with right hand and right knob/handle
 
-FUNCTION waterTempurature:
+FUNCTION waterTemperature:
     a. Stick hand in water to see if it is to hot or to cold
     b. FOR {
         IF waterHot {
@@ -86,7 +86,7 @@ FUNCTION waterTempurature:
             Put right hand on right knob and turn 5 degrees to the right
         }
         ELSE {
-            Water tempurature feels right END
+            Water temperature feels right END
         }
     }
 
@@ -131,7 +131,7 @@ findSoap
 findTowel
 
 turnOnWater
-waterTempuerature
+waterTemperature
 soapyHands
 wash
 waterOff
